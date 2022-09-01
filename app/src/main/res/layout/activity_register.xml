@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".register">
+
+    <EditText
+        android:id="@+id/edt_name"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/cardview_dark_background"
+        android:hint="email"
+        android:paddingLeft="13dp"
+        android:textColorHint="#E8E7DC"
+        android:textColorLink="#D5D2CB"
+        android:textStyle="italic" />
+
+
+    <EditText
+        android:id="@+id/edt_password"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_below="@id/edt_name"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/cardview_dark_background"
+        android:hint="password"
+        android:paddingLeft="13dp"
+        android:textColorHint="#E8E7DC"
+        android:textColorLink="#D5D2CB"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/edt_confirmpassword"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_below="@+id/edt_password"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/cardview_dark_background"
+        android:hint="confirm password"
+        android:paddingLeft="13dp"
+        android:textColorHint="#E8E7DC"
+        android:textColorLink="#D5D2CB"
+        android:textStyle="italic" />
+
+
+    <Button
+        android:id="@+id/btn_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edt_confirmpassword"
+        android:layout_centerHorizontal="true"
+        android:textSize="15sp"
+        android:text="sign up"
+        android:textStyle="italic"/>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_signup"
+        android:layout_centerHorizontal="true"
+        android:textSize="15sp"
+        android:text="login"
+        android:textStyle="italic"/>
+
+</RelativeLayout>
+
+
+
+
+
